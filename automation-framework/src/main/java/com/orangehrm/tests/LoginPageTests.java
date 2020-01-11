@@ -14,6 +14,9 @@ public class LoginPageTests extends BaseSelenium  {
 		lp.checkLoginCredential("admin", "admin")
 			.checkWelcomeText("Welcome Admin");
 		
+		
+		
+		
 	}
 	
 	@Test
